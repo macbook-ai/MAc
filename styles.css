@@ -1,0 +1,71 @@
+
+:root {
+  --background: #ffffff;
+  --buttons: #0077ff;
+  --buttons-hover: #004da5;
+  --text: #191919;
+  --nadpis: #2B2D42;
+  --popups: #7eaeb8;
+}
+
+
+
+
+
+body {
+  display: block;
+  height: 100vh;; /* Soft pastel blue */
+  font-family: 'Arial', sans-serif;
+}
+
+header{
+  color:#96BB7C;
+  size: 1000px;
+}
+
+#Nadpis {
+  font-size: 8rem;
+  top: 60px;
+  color: var(--nadpis); /* Dark navy */
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#podnadpis {
+  font-size: 30px;
+  color: var(--text); /* Grayish blue */
+  margin-bottom: 1.5rem;
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+#headbt{
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 0.5rem 9px;
+  align-self: center;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text); /* White */
+  background-color: var(--buttons); /* Soft teal */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--buttons-hover); /* Darker teal */
+  transform: scale(1.05);
+}
